@@ -7,6 +7,7 @@ const Wrapper = styled.div`
   align-items: center;
   flex-direction: column;
   background: #FBFBFA;
+  margin-bottom: 48px;
 `;
 
 const MainContent = styled.div`
@@ -49,7 +50,7 @@ const ProgressBar = styled.div`
   height: 6px;
 `;
 
-const SubHeader = () => {
+const SubHeader = (props) => {
   return (
     <Wrapper>
       <div style={{textAlign: 'center'}}>
@@ -75,7 +76,7 @@ const SubHeader = () => {
             <span>17</span>
             <small>days to go</small>
           </div>
-          <Button> Back this project</Button>
+          <Button onClick={props.clicked}> Back this project</Button>
           <p>All or nothing. This project will only be funded if it reaches its goal by Fri, May 1 2020 10:01 AM MDT.</p>
         </Col>
       </MainContent>

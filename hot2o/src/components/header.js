@@ -27,21 +27,21 @@ const Bottom = styled.div`
   margin: 12px;
 `;
 
-const Header = () => {
+const Header = (props) => {
   return (
     <Wrapper>
       <Top>
         <div style={{margin: '12px 0 12px 24px'}}>
-          <span>Explore</span>
-          <span>Start a project</span>
+          <span onClick={props.clicked}>Explore</span>
+          <span onClick={props.clicked}>Start a project</span>
         </div>
         <div>
           <a href={'https://www.kickstarter.com'}><img src={logo} alt="Kickstarter" style={{width: '180px'}}/></a>
         </div>
       </Top>
       <Bottom>
-        <span>Search</span>
-        <span>Log in</span>
+        <span onClick={props.clicked}>Search</span>
+        <span onClick={props.clicked}>Log in</span>
       </Bottom>
     </Wrapper>
   )
