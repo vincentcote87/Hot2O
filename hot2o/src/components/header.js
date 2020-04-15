@@ -9,9 +9,6 @@ const Wrapper = styled.div`
     margin-right: 12px;
     cursor: pointer;
   }
-  hr {
-    color: #d0d0d0;
-  }
 `;
 const Top = styled.div`
   display: flex;
@@ -46,7 +43,6 @@ const Header = () => {
         <span>Search</span>
         <span>Log in</span>
       </Bottom>
-      <hr/>
     </Wrapper>
   )
 };

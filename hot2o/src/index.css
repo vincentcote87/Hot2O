@@ -5,6 +5,11 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Muli', sans-serif;
+}
+
+hr {
+  color: #d0d0d0;
 }
 
 code {
