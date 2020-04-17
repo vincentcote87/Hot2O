@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6a55bfa-545c-42cc-a7da-5c0152fb61bd" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hot2o/.firebase/hosting.YnVpbGQ.cache" beforeDir="false" afterPath="$PROJECT_DIR$/hot2o/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot2o/src/assets/820x460.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot2o/src/components/Disclaimer.js" beforeDir="false" afterPath="$PROJECT_DIR$/hot2o/src/components/Disclaimer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot2o/src/components/MainContent.js" beforeDir="false" afterPath="$PROJECT_DIR$/hot2o/src/components/MainContent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot2o/src/components/PledgeBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/hot2o/src/components/PledgeBox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot2o/src/components/SubHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/hot2o/src/components/SubHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hot2o/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/hot2o/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hot2o/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/hot2o/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hot2o/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/hot2o/public/manifest.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -59,7 +54,19 @@
         <entry file="file://$PROJECT_DIR$/hot2o/src/components/MainContent.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="830">
-              <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+              <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hot2o/src/components/Disclaimer.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -68,13 +75,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hot2o/src/components/Disclaimer.js">
+        <entry file="file://$PROJECT_DIR$/hot2o/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="594">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/hot2o/public/manifest.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -112,7 +125,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/hot2o/src/index.js" />
-        <option value="$PROJECT_DIR$/hot2o/public/index.html" />
         <option value="$PROJECT_DIR$/hot2o/src/index.css" />
         <option value="$PROJECT_DIR$/hot2o/src/App.js" />
         <option value="$PROJECT_DIR$/hot2o/src/components/MainContent.js" />
@@ -120,6 +132,8 @@
         <option value="$PROJECT_DIR$/hot2o/src/components/SubHeader.js" />
         <option value="$PROJECT_DIR$/hot2o/src/components/header.js" />
         <option value="$PROJECT_DIR$/hot2o/src/components/Disclaimer.js" />
+        <option value="$PROJECT_DIR$/hot2o/public/manifest.json" />
+        <option value="$PROJECT_DIR$/hot2o/public/index.html" />
       </list>
     </option>
   </component>
@@ -147,6 +161,12 @@
               <item name="Hot2O" type="b2602c69:ProjectViewProjectNode" />
               <item name="Hot2O" type="462c0819:PsiDirectoryNode" />
               <item name="hot2o" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Hot2O" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Hot2O" type="462c0819:PsiDirectoryNode" />
+              <item name="hot2o" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Hot2O" type="b2602c69:ProjectViewProjectNode" />
@@ -217,18 +237,18 @@
       <updated>1586913659431</updated>
       <workItem from="1586913660878" duration="2050000" />
       <workItem from="1586915724163" duration="8262000" />
-      <workItem from="1587074094043" duration="8120000" />
+      <workItem from="1587074094043" duration="8931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18432000" />
+    <option name="totallyTimeSpent" value="19243000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="0" width="1734" height="1407" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.12558962" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12558962" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -240,7 +260,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2700157" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2700157" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -259,13 +279,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hot2o/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="93" selection-start-line="26" selection-start-column="93" selection-end-line="26" selection-end-column="93" />
         </state>
       </provider>
     </entry>
@@ -309,7 +322,7 @@
     <entry file="file://$PROJECT_DIR$/hot2o/src/components/MainContent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="830">
-          <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
+          <caret line="118" column="13" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -328,11 +341,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hot2o/src/components/Disclaimer.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
+        <state relative-caret-position="286">
           <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hot2o/public/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="22" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hot2o/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>
