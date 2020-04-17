@@ -36,7 +36,7 @@ const Header = (props) => {
           <span onClick={props.clicked}>Start a project</span>
         </div>
         <div>
-          <a href={'https://www.kickstarter.com'}><img src={logo} alt="Kickstarter" style={{width: '180px'}}/></a>
+          <a href={'https://www.kickstarter.com'} target='_blank'><img src={logo} alt="Kickstarter" style={{width: '180px'}}/></a>
         </div>
       </Top>
       <Bottom>

@@ -8,6 +8,9 @@ const Wrapper = styled.div`
   border: solid 1px #d0d0d0;
   padding: 20px;
   margin: 20px;
+  p {
+    margin: 0;
+  }
 `;
 
 const PledgeBox = (props) => {
@@ -17,12 +20,12 @@ const PledgeBox = (props) => {
       <h3>{props.pledgeReward}</h3>
       <span>{props.pledgeDescription}</span>
       <div style={{display: 'flex'}}>
-        <div style={{marginRight: '12px'}}>
-          <span>ESTIMATE DELIVERY</span>
+        <div style={{margin: '24px 24px 0 0'}}>
+          <span style={{fontSize: '10px'}}>ESTIMATE DELIVERY</span>
           <p>Dec 2020</p>
         </div>
-        <div style={{marginRight: '12px'}}>
-          <span>SHIPS TO</span>
+        <div style={{margin: '24px 24px 0 0'}}>
+          <span style={{fontSize: '10px'}}>SHIPS TO</span>
           <p>Canada Only</p>
         </div>
       </div>
