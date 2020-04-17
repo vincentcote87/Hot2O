@@ -1,2 +1,4 @@
 # Hot2O
-LBED 3300 Final Project
+LBED 3350 Final Project
+
+live page for prof grading is at: https://hot2o-f17fd.web.app/
